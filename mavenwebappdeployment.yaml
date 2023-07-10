@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: mavenwebappcontainer
-          image: 9764080588/tomcat-app:tagname
+          image: 9764080588/tomcat-app:v1.32
           ports:
             - containerPort: 8080
           resources:
